@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             transition={{ duration: 0.2 }}
             className="h-16 flex items-center justify-center"
           >
-            <img src={logo} alt="SANGAPAY Logo" className="h-[255px] w-[255px] object-contain" />
+            <img src={logo} alt="SangaEats Logo" className="h-[255px] w-[255px] object-contain" />
           </motion.div>
         </Link>
 

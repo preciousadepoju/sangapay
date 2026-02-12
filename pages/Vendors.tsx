@@ -74,7 +74,7 @@ const Vendors: React.FC = () => {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-4 text-slate-900">Increase Revenue</h3>
                                 <p className="text-slate-500 leading-relaxed font-medium">
-                                    Our partners see an average of 30% increase in revenue within the first 3 months of joining SANGAPAY.
+                                    Our partners see an average of 30% increase in revenue within the first 3 months of joining SangaEats.
                                 </p>
                             </div>
                         </StaggerItem>
@@ -98,7 +98,7 @@ const Vendors: React.FC = () => {
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <FadeIn direction="up">
                         <h2 className="text-4xl lg:text-5xl font-extrabold mb-8 text-slate-900 tracking-tight">Ready to scale your business?</h2>
-                        <p className="text-slate-500 text-xl mb-12 font-medium">Join over 5,000 restaurants and stores growing with SANGAPAY.</p>
+                        <p className="text-slate-500 text-xl mb-12 font-medium">Join over 5,000 restaurants and stores growing with SangaEats.</p>
                     </FadeIn>
                     <ScaleIn delay={0.2}>
                         <motion.button

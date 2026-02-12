@@ -51,7 +51,7 @@ const Riders: React.FC = () => {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-20">
                         <FadeIn direction="up">
-                            <h2 className="text-4xl lg:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">Why Ride with SANGAPAY?</h2>
+                            <h2 className="text-4xl lg:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">Why Ride with SangaEats?</h2>
                             <p className="text-slate-500 max-w-2xl mx-auto text-lg leading-relaxed font-medium">
                                 We offer the best rates and support in the industry.
                             </p>

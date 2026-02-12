@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
                                 whileHover={{ rotate: 10, scale: 1.1 }}
                                 className="w-8 h-8 flex items-center justify-center transition-transform"
                             >
-                                <img src={logo} alt="SANGAPAY Logo" className="w-full h-full object-contain" />
+                                <img src={logo} alt="SangaEats Logo" className="w-full h-full object-contain" />
                             </motion.div>
-                            <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-primary transition-colors font-brand">SANGAPAY</span>
+                            <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-primary transition-colors font-brand">SangaEats</span>
                         </Link>
                         <p className="text-slate-500 mb-8 max-w-sm font-medium text-sm leading-relaxed">
                             Empowering businesses and making lives easier through world-class logistics and delivery solutions.
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
 
                 <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-400 text-xs font-medium">
-                        &copy; {new Date().getFullYear()} SANGAPAY Technologies Inc. All rights reserved.
+                        &copy; {new Date().getFullYear()} SangaEats Technologies Inc. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6">
                         <span className="text-slate-400 text-xs font-bold cursor-pointer hover:text-primary transition-colors">English (US)</span>

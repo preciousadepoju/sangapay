@@ -17,7 +17,7 @@ const Company: React.FC = () => {
                         </FadeIn>
                         <FadeIn delay={0.2} direction="up">
                             <p className="text-lg text-slate-500 mb-6 leading-relaxed font-medium">
-                                SANGAPAY was founded with a simple goal: to make it easier for people to get what they need, when they need it.
+                                SangaEats was founded with a simple goal: to make it easier for people to get what they need, when they need it.
                             </p>
                         </FadeIn>
                         <FadeIn delay={0.3} direction="up">

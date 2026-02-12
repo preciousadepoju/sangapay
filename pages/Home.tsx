@@ -290,7 +290,7 @@ const Home: React.FC = () => {
                         <FadeIn direction='up'>
                             <h2 className="text-4xl lg:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">How it works</h2>
                             <p className="text-slate-500 max-w-2xl mx-auto text-lg leading-relaxed font-medium">
-                                Getting started with SANGAPAY is as simple as it gets.
+                                Getting started with SangaEats is as simple as it gets.
                             </p>
                         </FadeIn>
                     </div>
@@ -307,7 +307,7 @@ const Home: React.FC = () => {
                             <Step
                                 number="1"
                                 title="Download App"
-                                description="Get the SANGAPAY app from App Store or Google Play."
+                                description="Get the SangaEats app from App Store or Google Play."
                             />
                             <Step
                                 number="2"
@@ -338,7 +338,7 @@ const Home: React.FC = () => {
                                 <div>
                                     <FadeIn delay={0.2} direction='left'>
                                         <h2 className="text-4xl lg:text-6xl font-extrabold text-white mb-8 leading-[1.1] tracking-tight">
-                                            <span className="font-brand">SANGAPAY</span> in <br />your pocket.
+                                            <span className="font-brand">SangaEats</span> in <br />your pocket.
                                         </h2>
                                         <p className="text-xl text-slate-400 mb-12 max-w-lg leading-relaxed font-medium">
                                             Experience the fastest, most reliable delivery service. Real-time updates, secure payments, and premium support.
@@ -375,7 +375,7 @@ const Home: React.FC = () => {
                                                     <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
                                                         <Navigation className="text-white" size={24} strokeWidth={3} />
                                                     </div>
-                                                    <h4 className="font-black text-slate-900 text-lg font-brand">SANGAPAY</h4>
+                                                    <h4 className="font-black text-slate-900 text-lg font-brand">SangaEats</h4>
                                                     <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">Downloading...</p>
                                                 </div>
                                             </div>
