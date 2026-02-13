@@ -8,6 +8,9 @@ import Riders from './pages/Riders';
 import Vendors from './pages/Vendors';
 import Company from './pages/Company';
 
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+
 // Scroll to top component
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -25,11 +28,13 @@ const AnimatedRoutes: React.FC = () => {
 
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/riders" element={<Riders />} />
         <Route path="/vendors" element={<Vendors />} />
         <Route path="/company" element={<Company />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </AnimatePresence>
   );

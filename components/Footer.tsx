@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                         { title: "Company", links: [{ name: "About Us", to: "/company" }, { name: "Careers", href: "#" }, { name: "Blog", href: "#" }] },
                         { title: "Products", links: [{ name: "Vendors", to: "/vendors" }, { name: "Riders", to: "/riders" }, { name: "Store", href: "#" }] },
                         { title: "Support", links: [{ name: "Help Center", href: "#" }, { name: "FAQs", href: "#" }] },
-                        { title: "Legal", links: [{ name: "Terms", href: "#" }, { name: "Privacy", href: "#" }] }
+                        { title: "Legal", links: [{ name: "Terms", to: "/terms" }, { name: "Privacy", to: "/privacy" }] }
                     ].map((section, idx) => (
                         <StaggerItem key={idx} className="col-span-1">
                             <h4 className="font-bold text-slate-900 mb-6 text-sm">{section.title}</h4>
