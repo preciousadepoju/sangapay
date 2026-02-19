@@ -89,19 +89,21 @@ const Home: React.FC = () => {
                                 <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 4, ease: "linear" }}>
                                     <Star size={14} fill="currentColor" />
                                 </motion.div>
-                                <span>Nigeria's Most Reliable</span>
+                                <span>WORLD’S MOST RELIABLE</span>
                             </div>
                         </FadeIn>
 
                         <FadeIn direction="left" delay={0.2}>
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-8 tracking-tight">
-                                Happiness delivered <span className="text-primary inline-block">daily.</span>
+                                Your purchase. <br />
+                                Your way. <br />
+                                <span className="text-primary inline-block">Right away.</span>
                             </h1>
                         </FadeIn>
 
                         <FadeIn direction="left" delay={0.3}>
                             <p className="text-lg lg:text-xl text-slate-500 mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
-                                Join thousands of happy customers who get their meals, groceries, and essentials delivered in under 30 minutes.
+                                SangaEats is committed to delivering food and essential goods with speed, reliability, and innovation, while empowering local businesses, creating sustainable jobs, and building a delivery infrastructure that transforms communities.
                             </p>
                         </FadeIn>
 
@@ -333,7 +335,7 @@ const Home: React.FC = () => {
             <section className="py-24 bg-white overflow-hidden">
                 <div className="max-w-7xl mx-auto px-6">
                     <ScaleIn>
-                        <div className="bg-slate-900 rounded-[3rem] px-8 py-20 lg:p-24 relative overflow-hidden group">
+                        <div className="bg-primary rounded-[3rem] px-8 py-20 lg:p-24 relative overflow-hidden group">
                             <div className="grid lg:grid-cols-2 gap-16 items-center relative z-10">
                                 <div>
                                     <FadeIn delay={0.2} direction='left'>
