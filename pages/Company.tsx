@@ -12,17 +12,22 @@ const Company: React.FC = () => {
                     <div>
                         <FadeIn delay={0.1}>
                             <h1 className="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-8 tracking-tight">
-                                We're on a mission to <span className="text-primary">redefine convenience.</span>
+                                We exist to <span className="text-primary">redefine convenience</span> across the World.
                             </h1>
                         </FadeIn>
                         <FadeIn delay={0.2} direction="up">
                             <p className="text-lg text-slate-500 mb-6 leading-relaxed font-medium">
-                                SangaEats was founded with a simple goal: to make it easier for people to get what they need, when they need it.
+                                Sanga Eats was built to remove friction from everyday life, delivering what people need, when they need it.
                             </p>
                         </FadeIn>
                         <FadeIn delay={0.3} direction="up">
                             <p className="text-lg text-slate-500 mb-6 leading-relaxed font-medium">
-                                We are building the infrastructure for the future of commerce in Africa, connecting customers, vendors, and riders in a seamless ecosystem.
+                                Through technology and logistics infrastructure, we connect customers, merchants, and riders into a seamless, scalable commerce network.
+                            </p>
+                        </FadeIn>
+                        <FadeIn delay={0.4} direction="up">
+                            <p className="text-lg text-slate-500 mb-6 leading-relaxed font-medium text-slate-900/80 font-semibold p-4 bg-primary/5 rounded-xl border border-primary/10">
+                                Join thousands who trust Sanga Eats to deliver meals, groceries, and everyday essentials in under 30 minutes.
                             </p>
                         </FadeIn>
                     </div>
@@ -37,7 +42,7 @@ const Company: React.FC = () => {
                                     <Target className="text-primary" size={32} />
                                 </div>
                                 <h3 className="text-xl font-bold mb-2 text-slate-900">Our Mission</h3>
-                                <p className="text-slate-500 font-medium">To deliver happiness to every doorstep, every day.</p>
+                                <p className="text-slate-500 font-medium leading-relaxed">Empowering businesses and transforming daily life through reliable, technology-driven logistics and delivery solutions.</p>
                             </motion.div>
                         </StaggerItem>
                         <StaggerItem>
@@ -49,7 +54,7 @@ const Company: React.FC = () => {
                                     <Globe className="text-primary" size={32} />
                                 </div>
                                 <h3 className="text-xl font-bold mb-2 text-slate-900">Our Vision</h3>
-                                <p className="text-slate-500 font-medium">To be the operating system for local commerce across the continent.</p>
+                                <p className="text-slate-500 font-medium leading-relaxed">To build a globally recognized delivery network that transforms commerce, creates economic opportunity, and powers communities through technology and reliability.</p>
                             </motion.div>
                         </StaggerItem>
                     </StaggerContainer>
